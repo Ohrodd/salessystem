@@ -1,0 +1,26 @@
+.banner{
+    margin-top: 65px;
+    height: 75vh;
+}
+
+.informacionIndex{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.objeto1{
+  width: 25%;
+  height: 60vh;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 8px 10px 20px 10px rgb(133, 133, 133);
+}
+
+.seccion2Index{
+  width: 100%;
+  height: 80vh;
+  box-shadow:  10px 10px 80px 10px rgb(133, 133, 133);
+}
