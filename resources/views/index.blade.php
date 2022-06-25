@@ -4,39 +4,38 @@
 <head>
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
 </head>
-    <div>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="{{ asset('imagenes/banner1.jpg') }}" class="d-block w-100 banner" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="{{ asset('imagenes/banner2.jpg') }}" class="d-block w-100 banner" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="{{ asset('imagenes/banner3.jpg') }}" class="d-block w-100 banner" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="{{ asset('imagenes/banner4.jpg') }}" class="d-block w-100 banner" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="{{ asset('imagenes/banner5.jpg') }}" class="d-block w-100 banner" alt="...">
-              </div>
-            </div>
-          </div>
-    </div>
-    <section class="informacionIndex">
-      <div class="objeto1">
+  <section class="portadaPrincipal">
 
+  </section>
+    <section class="informacionIndex container">
+      <div class="card objeto1" style="width: 18rem;">
+        <img src="{{ asset('imagenes/portada1.jpg') }}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">¿Necesitas Baterias?</h5>
+          <p class="card-text">Si se trata de baterias somos tú mejor opción. Con más de x años en el área de baterias podremos asesorarte y ayudarte cuando más lo necesites.</p>
+          <a href="#" class="btn btn-primary">Solicitar Asesoramiento</a>
+        </div>
       </div>
-      <div class="objeto1">
 
+      <div class="card objeto1" style="width: 18rem;">
+        <img src="{{ asset('imagenes/portada2.jpg') }}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">¿Energías Alternativas?</h5>
+          <p class="card-text">Serguat, también está en disposición de comercializar e instalar sistemas de paneles solares para la generación de energía eléctrica limpia.</p>
+          <a href="#" class="btn btn-primary">Solicitar Asesoramiento</a>
+        </div>
       </div>
-      <div class="objeto1">
 
+      <div class="card objeto1" style="width: 18rem;">
+        <img src="{{ asset('imagenes/portada3.jpg') }}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Vehículos Eléctricos</h5>
+          <p class="card-text">Somos representantes de Taylor Dunn, novedosos vehículos eléctricos para usos comerciales, industriales y turísticos con amplio Stock de repuestos. </p>
+          <a href="#" class="btn btn-primary">Solicitar Asesoramiento</a>
+        </div>
       </div>
     </section>
-    <section class="seccion2Index">
+    <section class="seccion2Index container">
 
     </section>
 @endsection
