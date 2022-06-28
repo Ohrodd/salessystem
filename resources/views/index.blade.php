@@ -5,7 +5,12 @@
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
 </head>
   <section class="portadaPrincipal">
-
+    <div class="contenidoOculto1 " >
+        <img src="{{  asset('logo.svg') }}" class="logo contenidoOculto2" alt="">
+        <p class="contenidoOculto3">
+            Energia sin limites...
+        </p>
+    </div>
   </section>
     <section class="informacionIndex container">
       <div class="card objeto1" style="width: 18rem;">
@@ -38,4 +43,5 @@
     <section class="seccion2Index container">
 
     </section>
+    <script src="{{ asset('js/index.js') }}"></script>
 @endsection
